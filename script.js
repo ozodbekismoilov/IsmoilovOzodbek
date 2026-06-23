@@ -1,5 +1,5 @@
 const menuIcon = document.querySelector('#menu-icon');
-const menuIcon = document.querySelector('.nav-links');
+const navLinks = document.querySelector('.nav-links'); // Bu yerda nom to'g'rilandi
 
 menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
